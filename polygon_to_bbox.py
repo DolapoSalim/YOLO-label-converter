@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 """
 YOLO Polygon to Bounding Box Converter
 
