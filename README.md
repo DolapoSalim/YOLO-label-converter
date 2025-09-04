@@ -1,5 +1,5 @@
 # YOLO-label-converter
-This script is useful to convert YOLO segmentation label .txt files to standard coordinate labels. These are the coordinate formats for YOLO: xyxy, yxyn, xywh, xywhn
+This script is useful to convert YOLO segmentation label .txt files to standard coordinate labels. These are the coordinate formats for YOLO: xyxy, yxyn, xywh, xywhn.
 
 ## Features:
 
@@ -24,9 +24,9 @@ python polygon_to_bbox.py --batch input_folder/ --output output_folder/
 ``` 2 0.123456 0.654321 0.234567 0.345678 ```
 
 #### Provides statistics:
-- Lines processed
-- Objects converted
-- Lines skipped (if any errors)
+- Lines processed.
+- Objects converted.
+- Lines skipped (if any errors).
 
 ### For your specific data:
 Save the script as ```polygon_to_bbox.py```, then save your polygon data in a text file (e.g., ```labels.txt```) and run:
