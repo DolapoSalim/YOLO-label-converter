@@ -40,4 +40,4 @@ Error checking
 Multiple objects per file
 Batch processing
 Detailed output statistics
-✅ Command-line interface
+Command-line interface
