@@ -37,7 +37,7 @@ python polygon_to_bbox.py labels.txt
 This will create ```labels.bbox.txt``` with your converted bounding boxes!
 The script is robust and handles:
 Error checking
-✅ Multiple objects per file
-✅ Batch processing
-✅ Detailed output statistics
+Multiple objects per file
+Batch processing
+Detailed output statistics
 ✅ Command-line interface
