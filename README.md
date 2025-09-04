@@ -28,15 +28,15 @@ python polygon_to_bbox.py --batch input_folder/ --output output_folder/
 - Objects converted
 - Lines skipped (if any errors)
 
+### For your specific data:
+Save the script as ```polygon_to_bbox.py```, then save your polygon data in a text file (e.g., ```labels.txt```) and run:
+``` bash
+python polygon_to_bbox.py labels.txt
+```
 
-
-🎯 For your specific data:
-Save the script as polygon_to_bbox.py, then save your polygon data in a text file (e.g., labels.txt) and run:
-bashpython polygon_to_bbox.py labels.txt
-This will create labels.bbox.txt with your converted bounding boxes!
+This will create ```labels.bbox.txt``` with your converted bounding boxes!
 The script is robust and handles:
-
-✅ Error checking
+Error checking
 ✅ Multiple objects per file
 ✅ Batch processing
 ✅ Detailed output statistics
